@@ -4,9 +4,9 @@
 
 # script takes a list of bam files. for each bam, it calls the consensus sequence, and outputs a fasta and fastq file
 
-# note: In order for python to know which lines are headers, the user must specify a 'header_iq'
+# note: In order for python to know which lines are headers, the user must specify a 'header_identifier'
 # this should be a non-unique string that is common to every header, and be at the beginning of the line
-# Simply specifying '@ is not satisfactory, as '@' also occurs in phred scores, so will fuck-up the output.
+# Simply specifying '@ is not satisfactory, as '@' also occurs in phred scores.
 
 # fastq header example:
 # @locus_tag_*******
